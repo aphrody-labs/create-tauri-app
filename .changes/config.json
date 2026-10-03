@@ -1,5 +1,5 @@
 {
-  "gitSiteUrl": "https://www.github.com/tauri-apps/create-tauri-app/",
+  "gitSiteUrl": "https://www.github.com/aphrody-labs/create-tauri-app/",
   "timeout": 3600000,
   "pkgManagers": {
     "javascript": {

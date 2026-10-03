@@ -23,7 +23,7 @@ export default {
       const ext = script === "ps" ? "ps1" : "sh";
 
       const res = await fetch(
-        `https://github.com/tauri-apps/create-tauri-app/releases/download/create-tauri-app-v${version}/create-tauri-app.${ext}`,
+        `https://github.com/aphrody-labs/create-tauri-app/releases/download/create-tauri-app-v${version}/create-tauri-app.${ext}`,
       );
 
       return new Response(await res.text(), {
@@ -37,7 +37,7 @@ export default {
       const ext = searchParams.get("ext");
 
       const res = await fetch(
-        `https://github.com/tauri-apps/create-tauri-app/releases/download/${tag}/create-tauri-app-${arch}${ext}`,
+        `https://github.com/aphrody-labs/create-tauri-app/releases/download/${tag}/create-tauri-app-${arch}${ext}`,
       );
 
       return new Response(await res.arrayBuffer(), {

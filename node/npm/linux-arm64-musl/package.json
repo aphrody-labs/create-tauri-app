@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tauri-apps/create-tauri-app.git"
+    "url": "git+https://github.com/aphrody-labs/create-tauri-app.git"
   },
   "engines": {
     "node": ">= 10"
