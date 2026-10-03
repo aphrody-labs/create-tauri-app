@@ -11,12 +11,12 @@
   },
   "dependencies": {
     "vue": "^3.5.13",
-    "@tauri-apps/api": "{% if v2 %}^2{% else %}^1{% endif %}"{% if v2 %},
-    "@tauri-apps/plugin-opener": "^2"{% endif %}
+    "@aphrody/api": "{% if v2 %}^2{% else %}^1{% endif %}"{% if v2 %},
+    "@aphrody/plugin-opener": "^2"{% endif %}
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.7",
     "vite": "^8.0.16",
-    "@tauri-apps/cli": "{% if v2 %}^2{% else %}^1{% endif %}"
+    "@aphrody/cli": "{% if v2 %}^2{% else %}^1{% endif %}"
   }
 }

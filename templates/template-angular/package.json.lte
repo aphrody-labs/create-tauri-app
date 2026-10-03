@@ -18,14 +18,14 @@
     "@angular/router": "^22.0.1",
     "rxjs": "~7.8.2",
     "tslib": "^2.8.1",
-    "@tauri-apps/api": "{% if v2 %}^2{% else %}^1{% endif %}"{% if v2 %},
-    "@tauri-apps/plugin-opener": "^2"{% endif %}
+    "@aphrody/api": "{% if v2 %}^2{% else %}^1{% endif %}"{% if v2 %},
+    "@aphrody/plugin-opener": "^2"{% endif %}
   },
   "devDependencies": {
     "@angular/build": "^22.0.1",
     "@angular/cli": "^22.0.1",
     "@angular/compiler-cli": "^22.0.1",
-    "@tauri-apps/cli": "{% if v2 %}^2{% else %}^1{% endif %}",
+    "@aphrody/cli": "{% if v2 %}^2{% else %}^1{% endif %}",
     "typescript": "~6.0.3"
   }
 }

@@ -1,6 +1,6 @@
 import { Component, signal } from "@angular/core";
 import { RouterOutlet } from "@angular/router";
-import { invoke } from "@tauri-apps/api/{% if v2 %}core{% else %}tauri{% endif %}";
+import { invoke } from "@aphrody/api/{% if v2 %}core{% else %}tauri{% endif %}";
 
 @Component({
   selector: "app-root",

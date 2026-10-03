@@ -1,5 +1,5 @@
 {
-  "name": "@tauri-apps/create-tauri-app-workspace",
+  "name": "@aphrody/create-tauri-app-workspace",
   "private": true,
   "engines": {
     "bun": ">=1.4.2"
